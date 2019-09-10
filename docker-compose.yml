@@ -1,0 +1,17 @@
+  advise:
+    #restart: always
+    build: .
+    ports:
+    - "8081:8081"
+    # links:
+    # - aux_advise
+    volumes:
+    - ./logs:/opt/logs
+    environment:
+    - API_KEY_FIREBASE=${API_KEY_FIREBASE}
+    - AUTH_DOMAIN_FIREBASE=${AUTH_DOMAIN_FIREBASE}
+    - DATA_BASE_URL_FIREBASE=${DATA_BASE_URL_FIREBASE}
+    - STORAGE_BUCKET_FIREBASE=${STORAGE_BUCKET_FIREBASE}
+    expose:
+    - 8081
+

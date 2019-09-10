@@ -1,0 +1,14 @@
+flask
+flask_restful
+flask-Cors #==3.0.2
+pyyaml
+logger
+pyrebase
+
+#py-dataflow
+
+gunicorn
+Werkzeug
+
+#develop
+# ipdb

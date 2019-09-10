@@ -1,0 +1,4 @@
+enviroment:
+  RUN_CONTEINER: True
+  PRODUCTION: False
+  AWS_HOST: 191.13.253.206:8080

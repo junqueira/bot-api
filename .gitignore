@@ -1,0 +1,9 @@
+*.pyc
+.idea/
+/tmp
+*/logs
+*.log
+
+# Serverless directories
+.serverless
+__pycache__/
